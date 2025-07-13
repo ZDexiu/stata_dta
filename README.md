@@ -4,18 +4,17 @@
 
 
 *====================lalonde.dta
-use https://friosavila.github.io/playingwithstata/drdid/lalonde.dta, clear
+* use https://friosavila.github.io/playingwithstata/drdid/lalonde.dta, clear
 
-*这个数据是用于评估培训计划是否提高了个人收入，特别是在应用DID和drdid等方法时非常常用。
+* 这个数据是用于评估培训计划是否提高了个人收入，特别是在应用DID和drdid等方法时非常常用。
 *	re表示收入
 *	treated	是否接受培训（处理变量）
 
 
 *=====================wagepan_twfeweights.dta
-use "https://raw.githubusercontent.com/chaisemartinPackages/twowayfeweights/main/wagepan_twfeweights.dta", clear
-
+* use "https://raw.githubusercontent.com/chaisemartinPackages/twowayfeweights/main/wagepan_twfeweights.dta", clear
+/*
 * 用于演示和测试关于双向固定效应权重（Two-way Fixed Effects Weights）分析的面板数据。
-/* 
 核心变量解释
 变量名	类型	说明
 nr	float	人员编号（person identifier），唯一标识一个个体
@@ -61,11 +60,10 @@ expersq	工作经验的平方（exper²），用于捕捉非线性经验效应
 变量名	说明
 diff_lwage	工资对数的差分（可能是某个时间段的变化）
 diff_union	工会状态的差分（是否加入或退出工会）
-
 */
 
 
 *=================================state_policy_effect.dta
-use https://github.com/joshbleiberg/stacked_event/raw/main/state_policy_effect.dta, clear
+* use https://github.com/joshbleiberg/stacked_event/raw/main/state_policy_effect.dta, clear
 
 
